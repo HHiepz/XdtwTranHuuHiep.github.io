@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0px auto;
+}
+
+/* COLOR TEXT */
+.color-red {
+    color: #c0392b;
+}
+
+/* FONT SIZE */
+.font-size-12 {
+    font-size: 12px;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
+.font-size-18 {
+    font-size: 18px;
+}
+.font-size-20 {
+    font-size: 20px;
+}
+
+/* FONT BOLD */
+.text-bold {
+    font-weight: bold;
+}
+
+/* MARGIN */
+.mg-right-10 {
+    margin-right: 10px;
+}
+
+.mg-top-20 {
+    margin-top: 20px;
+}
+.mg-top-10 {
+    margin-top: 10px;
+}
+
+.mg-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.mg-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.mg-bottom-30 {
+    margin-bottom: 30px;
+}
+
+/* DISPLAY */
+.dp-flex {
+    display: flex;
+}
+
+/* JUSTIFILE */
+.justify-between {
+    justify-content: space-between;
+}
+
+/* ============================================== */
+/* BOX DETAILS */
+.box-details {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-details .box-details_img {
+    width: 100%;
+    height: auto;
+}
+
+
+.box-details .box-details_img img {
+    width: 100%;
+    height: auto;
+}
+
+.box-details .box-details_title {
+    font-size: 13px;
+}
+
+.box-details .box-details_title a {
+    display: block;
+    color: #333;
+}
+
+/* BOX DETAILS ROW */
+.box-details-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.box-details-row .box-details-row_img{
+    width: 100%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.box-details-row .box-details-row_img img{
+    width: 100%;
+    height: auto;
+}
+
+.box-details-row .box-details-row_title {
+    font-size: 13px;
+}
+
+
+.box-details-row .box-details-row_title a{
+    color: #333;
+}
+
+/* TITLE 001 */
+.title_001 {
+    position: relative;
+}
+
+.title_001 a {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    background: #fff;
+    padding: 5px;
+}
+
+.title_001 hr {
+    position: absolute;
+    border-top: #dedede;
+    width: 100%;
+    top: 50%;
+    z-index: -1;
+}

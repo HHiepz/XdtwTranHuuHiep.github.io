@@ -1,0 +1,99 @@
+#header > .container{
+    padding-bottom: 6px;
+    border-bottom: 1px  solid #bdc3c7;
+}
+
+/* --------------------------------------- */
+#logo a {
+    display: inline-block;
+    padding: 18px 0px;
+}
+
+#main-menu ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: #E61E25;
+}
+
+#main-menu>ul>li>a {
+    display: inline-block;
+    color: #fff;
+    padding: 12px 8px;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+
+#main-menu>ul>li {
+    border-bottom: 3px solid #E61E25;
+    transition: 0.25s border;
+}
+
+#main-menu>ul>li:first-child {
+    border-bottom: 3px solid #fff;
+}
+
+#main-menu>ul>li:hover {
+    border-bottom: 3px solid #fff;
+}
+
+
+.has-child {
+    position: relative;
+}
+
+.has-child:hover .child-main-menu>li {
+    display: block;
+}
+
+.child-main-menu {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    right: -10px;
+    top: 35px;
+}
+
+.child-main-menu>li {
+    display: none;
+}
+
+.child-main-menu>li>a {
+    display: block;
+    padding: 12px 8px;
+    width: 200px;
+    border: 1px solid #bdc3c7;
+    background-color: #fff;
+    color: #333 !important;
+    font-weight: bold;
+    transition: 0.25s color;
+}
+
+.child-main-menu>li:hover>a {
+    color: red !important;
+}
+
+
+/* --------------------------------------- */
+#sub-menu > ul{
+    display: flex;
+}
+
+#sub-menu > ul > li > a{
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 26px;
+    display: inline-block;
+    padding: 0px 5px;
+    margin-top: 6px;
+}
+
+
+#sub-menu > ul > li:first-child > a{
+    background: #333;
+    color: #fff;
+    margin-top: 6px;
+    text-transform: uppercase;
+}
